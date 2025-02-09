@@ -1,0 +1,13 @@
+;
+; BIND reverse data file for local loopback interface
+;
+$TTL	604800
+@	IN	SOA	reprobados.com. root.reprobados.com. (
+			      1		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	reprobados.com.
+10	IN	PTR	reprobados.com.
